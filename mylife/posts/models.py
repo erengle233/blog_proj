@@ -15,4 +15,4 @@ class Post(models.Model):
         return self.pub_date.strftime('%b %e %Y')
 
     def body_short(self):
-        return self.body[:30]
+        return self.body[:20]
